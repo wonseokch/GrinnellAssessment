@@ -9,4 +9,8 @@ module ApplicationHelper
       page_title + " | " + base_title                 # String concatenation
     end
   end
+  def message(random)
+    message = {0=> 'This is the dynamic button.', 1=> 'This message changes on refresh.', 2=> 'The button is a dynamic portion.'}
+    message[random]
+  end
 end
