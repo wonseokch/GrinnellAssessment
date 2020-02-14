@@ -10,7 +10,10 @@ module ApplicationHelper
     end
   end
   def message(random)
-    message = {0=> 'This is the dynamic button.', 1=> 'This message changes on refresh.', 2=> 'The button is a dynamic portion.'}
+    message = {
+      0=> 'Balanced lifestyle is good.',
+      1=> 'Taking pills is fun.',
+      2=> 'Taking care of our health should be our priorities.'}
     message[random]
   end
 end
