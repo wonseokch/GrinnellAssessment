@@ -11,9 +11,9 @@ module ApplicationHelper
   end
   def message(random)
     message = {
-      0=> 'Balanced lifestyle is good.',
-      1=> 'Taking pills is fun.',
-      2=> 'Taking care of our health should be our priorities.'}
+      0=> 'Fruits are delicious.',
+      1=> 'Too much fruits can harm you.',
+      2=> 'There are varieties of fruits you can eat.'}
     message[random]
   end
 end

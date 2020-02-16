@@ -65,6 +65,7 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  text-align:center;
 }
 
 
@@ -122,6 +123,19 @@ footer {
 	border-bottom: 1px solid $gray-lighter;
     }
 }
+
+/* images */
+
+.img-wrap {
+    position:relative;
+}
+.img-wrap .img-overlay {
+    position: absolute;
+    z-index:2;
+    top: 10px;
+    right: 10px;
+}
+
 /* forms */
 
 input, textarea, select, .uneditable-input {
