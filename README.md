@@ -1,14 +1,12 @@
-# Ruby on Rails Tutorial sample application
+# Grinnell Assessment
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](https://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+This is a Ruby on Rails Web Application for Grinnell College Curriculum Mapping.
+The Grinnell Assessment Website can be found [here](https://grinnell-assessment.herokuapp.com/).
 
 ## License
 
-All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
+All source code is available jointly under the MIT License and the Beerware License. 
+See
 [LICENSE.md](LICENSE.md) for details.
 
 ## Getting started
@@ -38,4 +36,4 @@ $ rails server
 ```
 
 For more information, see the
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+[Official Grinnell College Website](https://grinnell.edu).
