@@ -2,7 +2,7 @@ module ApplicationHelper
 
   # Returns the full title on a per-page basis.       # Documentation comment
   def full_title(page_title = '')                     # Method def, optional arg
-    base_title = "Ruby on Rails Tutorial Sample App"  # Variable assignment
+    base_title = "Grinnell Assessment"                # Variable assignment
     if page_title.empty?                              # Boolean test
       base_title                                      # Implicit return
     else
@@ -11,9 +11,9 @@ module ApplicationHelper
   end
   def message(random)
     message = {
-      0=> 'Fruits are delicious.',
-      1=> 'Too much fruits can harm you.',
-      2=> 'There are varieties of fruits you can eat.'}
+      0=> 'Grinnell\'s Official Curriculum Mapping Website.',
+      1=> 'Grinnell\'s Official Assessment Website..',
+      2=> 'Grinnell\'s Official Learning Goals Website.'}
     message[random]
   end
 end
